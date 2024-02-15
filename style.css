@@ -13,27 +13,32 @@ body {
 
 /* body area styles */
 .body-area {
-    
+    background-color: #f0f2f5;
 }
-
-
-
-
-/* content area style start  */
 .content-area {
+    width: 980px;
+    margin: 0 auto;
+    padding: 72px 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
 
-}
-
+/* left side area style start  */
 .left-side-area {
-
+    flex-basis: 540px;
 }
 
 .left-side-area img {
-
+    width: 300px;
+    padding-left: -10px;
 }
 
 .left-side-area h2 {
-
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 30px;
 }
 
 
@@ -41,22 +46,72 @@ body {
 
 /* form area styles start here  */
 .form-area {
+    flex-basis: 396px;
+    text-align: center;
+    
+}
+.form-area form{
+    background-color: white;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+.form-area form input{
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 14px 17px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.form-area input[type="button"]{
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+.form-area form a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.form-area form a:hover{
+    text-decoration: underline;
+}
+.form-area form hr{
 
 }
-.form-area input{
-
+.form-area button[type="button"]{
+    background-color: #42b72a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
 }
-.form-area a{
-
+.form-area p{
+    padding: 10px;
 }
-.form-area a:hover{
-
-}
-.form-area hr{
-
-}
-.form-area button{
-
+.form-area p a{
+    color:#1c1e21;
+    font-weight: 600;
+    text-decoration: none;
+    
 }
 
 
